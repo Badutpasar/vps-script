@@ -1,4 +1,4 @@
-
+![alt text](https://github.com/kucrutjr12/vps-script/blob/main/kucrutjr.png?raw=true)
 
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium
