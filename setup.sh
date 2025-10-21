@@ -406,7 +406,7 @@ clear
 # / / Installation Xray Core
 xraycore_link="https://github.com/XTLS/Xray-core/releases/download/v25.2.18/xray-linux-64.zip"
 
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version 1.8.1
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version 25.2.18
 
 # / / Make Main Directory
 mkdir -p /usr/bin/xray
