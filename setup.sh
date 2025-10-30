@@ -305,14 +305,14 @@ sts="${Info}"
 else
 sts="${Error}"
 fi
-TIMES="10"
-CHATID="702916090"
-KEY="6782550545:AAEQJCiVZvTvu-2vvd5z4I4I4V7-W3lwIyM"
+TIMES="5"
+CHATID="8189769277"
+KEY="8298417873:AAEFyP3_-DEKqlXwDjtprDBCVlIt6T0fiE4"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b> KUCRUTJR PREMIUM </b>
+<b> KUCRUT-JR </b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <code>User     :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
@@ -323,7 +323,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"http://t.me/Deaswara"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"http://t.me/Badutpsr"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
