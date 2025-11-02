@@ -428,7 +428,7 @@ sleep 0.5
     #chmod +x /usr/local/bin/xray
     domain=$(cat /etc/xray/domain)
     IPVS=$(cat /etc/xray/ipvps)
-    print_success "Core Xray 25.10.15 Latest Version"
+    print_success "Core Xray 25.2.18 Latest Version"
     
     # Settings UP Nginix Server
     clear
